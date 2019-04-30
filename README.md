@@ -22,7 +22,15 @@ Generate starter code
 
     $ rails g starrr core_extensions
 
-## Usage
+Import javascript file
+```js
+//= require starrr.js
+```
+
+Import css file
+```sass
+@import "starrr";
+```
 
 ## Usage
 
