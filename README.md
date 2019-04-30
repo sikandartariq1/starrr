@@ -1,9 +1,7 @@
 # Starrr
+Simple star/rating input field.
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/starrr`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
+Courtesy: https://github.com/dobtco/starrr
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +20,59 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+## Usage
+
+### Create the stars
+
+```html
+<div class='starrr'></div>
+```
+
+```js
+$('.starrr').starrr()
+```
+
+### With an existing rating
+
+```js
+$('.starrr').starrr({
+  rating: 4
+})
+```
+
+### With more than 5 stars
+
+```js
+$('.starrr').starrr({
+  max: 10
+})
+```
+
+### Read-only
+
+```js
+$('.starrr').starrr({
+  readOnly: true
+})
+```
+
+### Do something with the rating...
+
+```js
+$('.starrr').starrr({
+  change: function(e, value){
+    alert('new rating is ' + value)
+  }
+})
+```
+
+Or if you prefer events:
+
+```js
+$('.starrr').on('starrr:change', function(e, value){
+  alert('new rating is ' + value)
+})
+```
 
 ## Development
 
@@ -32,7 +82,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/starrr.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sikandartariq1/starrr.
 
 ## License
 
