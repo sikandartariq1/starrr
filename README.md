@@ -18,6 +18,10 @@ Or install it yourself as:
 
     $ gem install starrr
 
+Generate starter code
+
+    $ rails g starrr core_extensions
+
 ## Usage
 
 ## Usage
