@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sikandar.tariq@thedevden.co"]
 
   spec.summary       = "1-5 (or 1-n) star rating in < 75 lines of code."
-  spec.description   = "1-5 (or 1-n) star rating in < 75 lines of code."
+  spec.description   = "rails front-end library for star/rating input field"
   spec.homepage      = "http://dobtco.github.com/starrr"
   spec.license       = "MIT"
 
