@@ -1,4 +1,7 @@
 # Starrr
+
+[![Gem Version](https://badge.fury.io/rb/starrr.svg)](https://badge.fury.io/rb/starrr)
+
 Simple star/rating input field.
 
 Courtesy: https://github.com/dobtco/starrr
